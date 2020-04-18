@@ -15,7 +15,7 @@ Variant: gui 256
     Normal       fg1    bg0
     CursorLineNr yellow bg1
     FoldColumn   grey   bg1   # FIXME
-    SignColumn   fg1    bg1
+    SignColumn   fg1    none
     VertSplit    bg3    bg0
 #endif
 ColorColumn                      none   bg1
@@ -113,10 +113,10 @@ Variant: gui 256 16 8
 # Group                          Fg     Bg      Attributes
 Conceal                          blue   none
 Cursor                           none   none    reverse
-DiffAdd                          green  bg0     reverse
-DiffChange                       aqua   bg0     reverse
-DiffDelete                       red    bg0     reverse
-DiffText                         yellow bg0     reverse
+DiffAdd                          green  none
+DiffChange                       aqua   none
+DiffDelete                       red    none
+DiffText                         yellow none
 Directory                        green  none    bold
 EndOfBuffer                      bg0    none
 IncSearch                        orange bg0     reverse
