@@ -9,4 +9,6 @@ Tag              -> Special
 lCursor          -> Cursor
 iCursor          -> Cursor
 vCursor          -> Cursor
+diffAdded        -> DiffAdd
+diffRemoved      -> DiffDelete
 
